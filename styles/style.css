@@ -63,6 +63,9 @@
 
     
 }
+.edited-list li{
+    list-style-type: disc;
+}
 .container-description{
     margin-top: 20px;
     font-weight: 400;
@@ -90,4 +93,73 @@
 }
 .plan-title{
     margin: 10px 0;
+}
+/* adviced-section */
+.adviced-section{
+    margin-top: 150px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png') ;
+    width: 1130px;
+    height: 300px;
+ 
+}
+.advice .advice-title{
+    text-align: left;
+}
+.advice{
+    padding-left: 64px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 460px;
+    height: 182px;
+    color: aliceblue;
+
+}
+.btn-simple{
+    height: 40px;
+    width: 120px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 7px;
+
+}
+/* footer section */
+.footer{
+    display: flex;
+    margin-top: 150px;
+    width: 1600px;
+    height: 580px;
+    background-color: black;
+    color: aliceblue;
+    gap: 330px;
+}
+.footer-container{
+    height: 320px;
+    width: 485px;
+    padding-left: 230px;
+    padding-top: 130px;
+}
+.footer-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.form-container{
+    height: 200px;
+    width: 330px;
+    margin-right: 230px;
+    padding-top: 130px;
+}
+.form-container input{
+    margin: 20px 0;
+    background: #000;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 15px;
+    
+    border-radius: 10px;
 }
