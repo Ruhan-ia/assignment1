@@ -163,3 +163,7 @@
     
     border-radius: 10px;
 }
+a{
+    text-decoration: none;
+    padding: 10px;
+}
