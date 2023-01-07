@@ -4,9 +4,11 @@
 }
 .header{
     background-image: url('../images/banner/banner2.png');
+  
 }
 .banner{
-    text-align: right;
+   text-align: center;
+    
 }
 .banner-title{
     margin-left: 845px;
@@ -14,25 +16,25 @@
     padding-top: 200px;
     font-weight: 700;
     font-size: 65px;
-    width: 525px;
-    height: 228px;
+    width: 500px;
+    height: 230px;
    
 }
 .banner-description{
     font-weight: 400;
     padding-top: 30px;
-    width: 500px;
-    text-align: right;
+    width: 480px;
+    
     height: 80;
     margin-left: 880px;
     margin-right: 230px;
 }
 .btn-primary{
-    width: 160px;
+    width: 140px;
     height: 65px;
     margin-right: 230px;
     margin-bottom: 167px;
-    margin-left: 1210px;
+    margin-left: 1200px;
     margin-top: 30px;
     color: aliceblue;
     font-weight: 600;
@@ -50,9 +52,10 @@
     gap: 80px;
 }
 .failures-container img{
-    background: url('../images/icons/');
+ 
     margin-left: 210px;
 }
+
 .details{
     margin-right: 320px;
     margin-top: 210px;
@@ -65,6 +68,7 @@
 }
 .edited-list li{
     list-style-type: disc;
+    padding: 5px;
 }
 .container-description{
     margin-top: 20px;
@@ -94,6 +98,28 @@
 .plan-title{
     margin: 10px 0;
 }
+/* discipline-section */
+.disciplin-container{
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+}
+.disciplin-container h4{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.discipline{
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 7px;
+}
+.discipline:hover{
+    border: 3px solid gray;
+    box-shadow:  0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+
 /* adviced-section */
 .adviced-section{
     margin-top: 150px;
